@@ -32,55 +32,32 @@ The closed loop integration annotates the incident work log with xMatters event 
    b. Select Access Permissions then add the REST User  
    c. On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan  
    d. Select Forms  
-   e. Click the Mobile and Web Service drop-down menu for the Incident Alerts form
-   
-   f. Select Sender Permissions then add the REST User
-   
-4. Configure Integration Builder Constants and Endpoints
-
-   a. On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan
-   
-   b. Select Integration Builder
-   
-   c. Click Edit Endpoints
-   
-        i. For the xMatters endpoint, in Assign Endpoint add the REST User then Save Changes
-      
-        ii. For the Remedy On-Demand DEV endpoint, type the Base URL for the Remedy DEV environment then Save Changes
-      
-        iii. For the Remedy On-Demand PROD endpoint, type the Base URL for the Remedy PROD environment then Save Changes
-      
-        iv. For the Remedy On-Demand QA endpoint, type the Base URL for the Remedy QA environment then Save Changes
-      
-        v. Close Edit Endpoints
-      
-   d. Click Edit Constants
-   
-        Edit the constants:
-      
-        ROD_SERVER_NAME
-      
-        ROD_WS_HOSTNAME
-      
-        ROD_WS_PASSWORD
-      
-        ROD_WS_PROTOCOL
-      
-        ROD_WS_USERNAME
-      
-        XM_ROD_ENDPOINT - Remedy On-Demand QA or Remedy On-Demand DEV or Remedy On-Demand PROD
-      
-        XMOD_INC_FORM_WS_URL
-      
-           i. To get the URL, n the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan
-         
-           ii. Select Integration Builder
-         
-           iii. Click the 1 Configured link for Inbound Integrations
-         
-           iv. Click the Incident Alerts - Inbound link
-         
-           v. Scroll to the How to trigger the integration section then click the Copy Url link
+   e. Click the Mobile and Web Service drop-down menu for the Incident Alerts form  
+   f. Select Sender Permissions then add the REST User  
+3. Configure Integration Builder Constants and Endpoints  
+   a. On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan  
+   b. Select Integration Builder  
+   c. Click Edit Endpoints  
+      i. For the xMatters endpoint, in Assign Endpoint add the REST User then Save Changes  
+      ii. For the Remedy On-Demand DEV endpoint, type the Base URL for the Remedy DEV environment then Save Changes  
+      iii. For the Remedy On-Demand PROD endpoint, type the Base URL for the Remedy PROD environment then Save Changes  
+      iv. For the Remedy On-Demand QA endpoint, type the Base URL for the Remedy QA environment then Save Changes  
+      v. Close Edit Endpoints  
+   d. Click Edit Constants, then edit/very these constants:  
+      | Constant | Description |  
+      | ROD_SERVER_NAME | Domain name of Remedy On Demand server accepting Web Service calls |  
+      | ROD_WS_HOSTNAME | Remedy On Demand Middle-Tier (AR) host name that accepts Web Service calls |  
+      | ROD_WS_PASSWORD | Password for authorizing web service calls to Remedy On Demand |  
+      | ROD_WS_PROTOCOL | Protocol to use when calling back into Remedy On Demand Web Services |  
+      | ROD_WS_USERNAME | Remedy On Demand user to authenticate incoming Web Service calls |  
+      | XMOD_INC_FORM_WS_URL | See below to obtain the Inbound Integration URL |  
+      | XMOD_ROD_ENDPOINT_NAME | Remedy On-Demand QA or Remedy On-Demand DEV or Remedy On-Demand PROD |  
+   e. To obtain the XMOD_INC_FORM_WS_URL  
+      i. On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan  
+      ii. Select Integration Builder  
+      iii. Click the 1 Configured link for Inbound Integrations  
+      iv. Click the Incident Alerts - Inbound link  
+      v. Scroll to the How to trigger the integration section then click the Copy Url link
       
       
    ```
