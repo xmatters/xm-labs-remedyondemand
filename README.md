@@ -50,43 +50,43 @@ http://help.xmatters.com/OnDemand/xmodwelcome/communicationplanbuilder/exportcom
    
    c. Click Edit Endpoints
    
-      i. For the xMatters endpoint, in Assign Endpoint add the REST User then Save Changes
+        i. For the xMatters endpoint, in Assign Endpoint add the REST User then Save Changes
       
-      ii. For the Remedy On-Demand DEV endpoint, type the Base URL for the Remedy DEV environment then Save Changes
+        ii. For the Remedy On-Demand DEV endpoint, type the Base URL for the Remedy DEV environment then Save Changes
       
-      iii. For the Remedy On-Demand PROD endpoint, type the Base URL for the Remedy PROD environment then Save Changes
+        iii. For the Remedy On-Demand PROD endpoint, type the Base URL for the Remedy PROD environment then Save Changes
       
-      iv. For the Remedy On-Demand QA endpoint, type the Base URL for the Remedy QA environment then Save Changes
+        iv. For the Remedy On-Demand QA endpoint, type the Base URL for the Remedy QA environment then Save Changes
       
-      v. Close Edit Endpoints
+        v. Close Edit Endpoints
       
    d. Click Edit Constants
    
-      Edit the constants:
+        Edit the constants:
       
-      ROD_SERVER_NAME
+        ROD_SERVER_NAME
       
-      ROD_WS_HOSTNAME
+        ROD_WS_HOSTNAME
       
-      ROD_WS_PASSWORD
+        ROD_WS_PASSWORD
       
-      ROD_WS_PROTOCOL
+        ROD_WS_PROTOCOL
       
-      ROD_WS_USERNAME
+        ROD_WS_USERNAME
       
-      XM_ROD_ENDPOINT - Remedy On-Demand QA or Remedy On-Demand DEV or Remedy On-Demand PROD
+        XM_ROD_ENDPOINT - Remedy On-Demand QA or Remedy On-Demand DEV or Remedy On-Demand PROD
       
-      XMOD_INC_FORM_WS_URL
+        XMOD_INC_FORM_WS_URL
       
-         i. To get the URL, n the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan
+           i. To get the URL, n the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan
          
-         ii. Select Integration Builder
+           ii. Select Integration Builder
          
-         iii. Click the 1 Configured link for Inbound Integrations
+           iii. Click the 1 Configured link for Inbound Integrations
          
-         iv. Click the Incident Alerts - Inbound link
+           iv. Click the Incident Alerts - Inbound link
          
-         v. Scroll to the How to trigger the integration section then click the Copy Url link
+           v. Scroll to the How to trigger the integration section then click the Copy Url link
       
       
    ```
