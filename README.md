@@ -37,7 +37,7 @@ Configure Integration Builder Constants and Endpoints
 * On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan  
 * Select Integration Builder  
 * Click Edit Endpoints
-*    For the xMatters endpoint, in Assign Endpoint add the REST User then Save Changes  
++    For the xMatters endpoint, in Assign Endpoint add the REST User then Save Changes  
 *    For the Remedy On-Demand DEV endpoint, type the Base URL for the Remedy DEV environment then Save Changes  
 *    For the Remedy On-Demand PROD endpoint, type the Base URL for the Remedy PROD environment then Save Changes  
 *    For the Remedy On-Demand QA endpoint, type the Base URL for the Remedy QA environment then Save Changes  
