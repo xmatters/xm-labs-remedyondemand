@@ -108,6 +108,9 @@ This qualification prevents the integration from sending a second notification b
   <img src="media/RODUpdateFilterQual.png">
 </kbd>
 
+#### Update the default assignee
+The out-of-box permissions allow the Submitter and Assignee (and BMC Remedy administrators) to search instances of the XM:Event Injection form. This allows users who modify incidents to see the corresponding XM:Event Injection instance for their update. To allow the ITSM user to also see all the Event Injection forms, modify the default value for the Assigned To field to the ITSM user you created.  
+
 
 
 # Testing
