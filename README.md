@@ -43,7 +43,7 @@ The closed loop integration annotates the incident work log with xMatters event 
       3. For the Remedy On-Demand PROD endpoint, type the Base URL for the Remedy PROD environment then Save Changes  
       4. For the Remedy On-Demand QA endpoint, type the Base URL for the Remedy QA environment then Save Changes  
       5. Close Edit Endpoints  
-   d. Click Edit Constants, then edit/very these constants:
+      d. Click Edit Constants, then edit these constants:
    
    
       | Constant               | Description                                                                |  
@@ -62,6 +62,8 @@ The closed loop integration annotates the incident work log with xMatters event 
       3. Click the 1 Configured link for Inbound Integrations  
       4. Click the Incident Alerts - Inbound link  
       5. Scroll to the How to trigger the integration section then click the Copy Url link
+      
+      
       
       
    ```
