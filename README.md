@@ -79,7 +79,7 @@ Configuring BMC Remedy On-Demand to integrate with xMatters requires the followi
 * Click **Next**  
       If you have already imported a workflow definition file, ensure that you select the Replace Objects on the Destination Server check box (do not select the other check boxes), but note that any changes you have made to those objects will be lost. If you are sure the changes you made are necessary for your installation, you will be required to re-apply those changes to the new version of the files being imported unless you applied those changes to overlay objects.  
 * Repeat the above steps to import the `xm_incident_8_1.def` file.  
-      Note that this file must be imported after the foundation file.  
+      Note this file must be imported after the foundation file.  
 Click **Finish**
 
 ### Configuring filters
