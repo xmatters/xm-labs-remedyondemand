@@ -7,7 +7,7 @@ Notify on-call response teams when critical incidents are reported in Remedy. Wi
 * xMatters account - If you don't have one, [get one](https://www.xmatters.com)!
 
 # Files
-*[BMCRemedyITSMIncident.zip](BMCRemedyITSMIncident.zip) - download this Communication Plan to get started.
+[BMCRemedyITSMIncident.zip](BMCRemedyITSMIncident.zip) - download this Communication Plan to get started.
 
 # How it works
 Remedy On-Demand triggers one of the xMatters filters as part of the integration. The filter POSTs the Remedy Incident ID to xMatters, and in turn xMatters uses a Remedy web service to obtain the incident properties and subsequently creates the xMatters Event targeted to the assigned resolver Group.
