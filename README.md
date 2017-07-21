@@ -42,8 +42,9 @@ The closed loop integration annotates the incident work log with xMatters event 
       2. For the Remedy On-Demand DEV endpoint, type the Base URL for the Remedy DEV environment then Save Changes  
       3. For the Remedy On-Demand PROD endpoint, type the Base URL for the Remedy PROD environment then Save Changes  
       4. For the Remedy On-Demand QA endpoint, type the Base URL for the Remedy QA environment then Save Changes  
-      5. Close Edit Endpoints
+      5. Close Edit Endpoints  
    d. Click Edit Constants, then edit/very these constants:
+   
    
       | Constant               | Description                                                                |  
       |:---------------------- |:-------------------------------------------------------------------------- |
