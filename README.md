@@ -75,11 +75,11 @@ Configuring BMC Remedy On-Demand to integrate with xMatters requires the followi
 * Select the AR System server into which you want to upload the integration objects, and then click **Next**
 * Do one of the following:  
       Type in the location of the `xm_foundation_8_1.def` file  
-      Click the Browse button to the right of the text field and navigate to the location of the `xm_foundation_8_1.def` file. Select the file, and then click **Open**.
-* Click **Next**
-      If you have already imported a workflow definition file, ensure that you select the Replace Objects on the Destination Server check box (do not select the other check boxes), but note that any changes you have made to those objects will be lost. If you are sure the changes you made are necessary for your installation, you will be required to re-apply those changes to the new version of the files being imported unless you applied those changes to overlay objects.
-* Repeat the above steps to import the `xm_incident_8_1.def` file.
-      Note that this file must be imported after the foundation file.
+      Click the Browse button to the right of the text field and navigate to the location of the `xm_foundation_8_1.def` file. Select the file, and then click **Open**.  
+* Click **Next**  
+      If you have already imported a workflow definition file, ensure that you select the Replace Objects on the Destination Server check box (do not select the other check boxes), but note that any changes you have made to those objects will be lost. If you are sure the changes you made are necessary for your installation, you will be required to re-apply those changes to the new version of the files being imported unless you applied those changes to overlay objects.  
+* Repeat the above steps to import the `xm_incident_8_1.def` file.  
+      Note that this file must be imported after the foundation file.  
 Click **Finish**
 
 ### Configuring filters
@@ -96,6 +96,19 @@ First, create a new ITSM user with the Incident Master role in BMC Remedy; the u
 <kbd>
   <img src="media/RODITSMUser.png">
 </kbd>
+
+**Note: If you specify a Login ID of "xmatters" for this ITSM user, you can skip the following steps.**
+
+#### Update the filter qualification
+The XM:Incident_Re-Assigned_899 filter contains the following qualification criteria: `($USER$ != "xmatters")`  
+
+This qualification prevents the integration from sending a second notification based on an incident's assignment changing because of a user response to an earlier notification. Replace `xmatters` with the name of the ITSM user created in Step One.
+
+<kbd>
+  <img src="media/RODUpdateFilterQual.png">
+</kbd>
+
+
 
 # Testing
 Be specific. What should happen to make sure this code works? What would a user expect to see? 
