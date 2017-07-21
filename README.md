@@ -53,11 +53,11 @@ The closed loop integration annotates the incident work log with xMatters event 
       | XMOD_INC_FORM_WS_URL | See below to obtain the Inbound Integration URL |  
       | XMOD_ROD_ENDPOINT_NAME | Remedy On-Demand QA or Remedy On-Demand DEV or Remedy On-Demand PROD |  
    e. To obtain the XMOD_INC_FORM_WS_URL  
-      i. On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan  
-      ii. Select Integration Builder  
-      iii. Click the 1 Configured link for Inbound Integrations  
-      iv. Click the Incident Alerts - Inbound link  
-      v. Scroll to the How to trigger the integration section then click the Copy Url link
+      1. On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan  
+      2. Select Integration Builder  
+      3. Click the 1 Configured link for Inbound Integrations  
+      4. Click the Incident Alerts - Inbound link  
+      5. Scroll to the How to trigger the integration section then click the Copy Url link
       
       
    ```
