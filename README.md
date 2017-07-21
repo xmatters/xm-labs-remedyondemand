@@ -43,7 +43,8 @@ The closed loop integration annotates the incident work log with xMatters event 
       3. For the Remedy On-Demand PROD endpoint, type the Base URL for the Remedy PROD environment then Save Changes  
       4. For the Remedy On-Demand QA endpoint, type the Base URL for the Remedy QA environment then Save Changes  
       5. Close Edit Endpoints  
-d. Click Edit Constants, then edit these constants:  
+      
+   d. Click Edit Constants, then edit these constants:  
       
 | Constant               | Description                                                                |
 |:---------------------- |:-------------------------------------------------------------------------- |
@@ -54,15 +55,14 @@ d. Click Edit Constants, then edit these constants:
 | ROD_WS_USERNAME        | Remedy On Demand user to authenticate incoming Web Service calls           |
 | XMOD_INC_FORM_WS_URL   | See below to obtain the Inbound Integration URL                            |
 | XMOD_ROD_ENDPOINT_NAME | Remedy On-Demand QA or Remedy On-Demand DEV or Remedy On-Demand PROD       |  
-
-
-
-   e. To obtain the XMOD_INC_FORM_WS_URL
+   e. To obtain the XMOD_INC_FORM_WS_URL  
       1. On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan  
       2. Select Integration Builder  
       3. Click the 1 Configured link for Inbound Integrations  
       4. Click the Incident Alerts - Inbound link  
-      5. Scroll to the How to trigger the integration section then click the Copy Url link
+      5. Scroll to the How to trigger the integration section then click the Copy Url link  
+      
+      
 
 ## Remedy On-Demand set up
 Any specific steps for setting up the target application? The more precise you can be, the better!
