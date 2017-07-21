@@ -62,18 +62,37 @@ The closed loop integration annotates the incident work log with xMatters event 
 * Scroll to the **How to trigger the integration** section then click the *Copy Url* link
 
 ## Remedy On-Demand set up
-Any specific steps for setting up the target application? The more precise you can be, the better!
+Configuring BMC Remedy On-Demand to integrate with xMatters requires the following steps:
 
-Images are encouraged. Adding them is as easy as:
-```
-<kbd>
-  <img src="media/cat-tax.png" width="200" height="400">
-</kbd>
-```
+* Import the workflow definition files
+* Configure filters
+* Configure the ITSM user
+* Disable automatic assignments
 
-<kbd>
-  <img src="media/cat-tax.png" width="200" height="400">
-</kbd>
+### Importing workflow definition files
+* Log in to the BMC Remedy Developer Studio, and then select **File** > **Import**
+* Select **BMC Remedy Developer Studio** > **Object Definitions**, and then click **Next**
+* Select the AR System server into which you want to upload the integration objects, and then click **Next**
+* Do one of the following:  
+      Type in the location of the `xm_foundation_8_1.def` file
+      Click the Browse button to the right of the text field and navigate to the location of the `xm_foundation_8_1.def` file. Select the file, and then click **Open**.
+* Click **Next**
+      If you have already imported a workflow definition file, ensure that you select the Replace Objects on the Destination Server check box (do not select the other check boxes), but note that any changes you have made to those objects will be lost. If you are sure the changes you made are necessary for your installation, you will be required to re-apply those changes to the new version of the files being imported unless you applied those changes to overlay objects.
+* Repeat the above steps to import the `xm_incident_8_1.def` file.
+      Note that this file must be imported after the foundation file.
+Click **Finish**
+
+### Configuring filters
+The integration includes a filter and an escalation that use the Set Fields action to consume a web service; these objects need their endpoints changed to the address of the integration agent.  
+Filter: XM:EI:EventInjection_100
+Escalation: XM:Event Injection Retry
+
+### Configuring ITSM user
+The integration requires a dedicated ITSM user to interact with incidents.
+
+#### Create an ITSM user
+First, create a new ITSM user with the Incident Master role in BMC Remedy; the user does not need to be Support Staff.
+
 
 
 # Testing
