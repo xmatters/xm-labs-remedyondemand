@@ -111,6 +111,24 @@ This qualification prevents the integration from sending a second notification b
 #### Update the default assignee
 The out-of-box permissions allow the Submitter and Assignee (and BMC Remedy administrators) to search instances of the XM:Event Injection form. This allows users who modify incidents to see the corresponding XM:Event Injection instance for their update. To allow the ITSM user to also see all the Event Injection forms, modify the default value for the Assigned To field to the ITSM user you created.  
 
+<kbd>
+  <img src="media/RODUpdateDefaultAssignee.png">
+</kbd>
+
+### Disabling automatic assignment
+To allow xMatters to control assignments, you must turn off the automatic assignment feature in BMC Remedy.  
+
+**Note: To perform this step, you will need to login as a user with Administrator permission.**  
+
+* Log in to the BMC Remedy Mid Tier web server.
+* Click **Applications**, and then click the **Application Console** left-menu item.
+* Click **Application Administration Console**.
+* In the new window, expand **Incident Management**, and then expand **Advanced Options**.
+* Select **Rules**, and then click **Open**.
+* Search for all existing "Configure Incident Rules".
+* For each existing rule, do the following:  
+      Select the rule, and in the **Assignment Process** drop-down list, select **(clear)**.  
+      Click **Save**.  
 
 
 # Testing
