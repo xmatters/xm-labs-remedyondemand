@@ -29,21 +29,21 @@ Import the BMC Remedy ITSM - Incident Communication Plan (BMCRemedyITSMIncident.
 Assign permissions to the Communication Plan and Form  
 * On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan  
 * Select Access Permissions then add the REST User  
-   c. On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan  
-   d. Select Forms  
-   e. Click the Mobile and Web Service drop-down menu for the Incident Alerts form  
-   f. Select Sender Permissions then add the REST User  
-3. Configure Integration Builder Constants and Endpoints  
-   a. On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan  
-   b. Select Integration Builder  
-   c. Click Edit Endpoints
-      1. For the xMatters endpoint, in Assign Endpoint add the REST User then Save Changes  
-      2. For the Remedy On-Demand DEV endpoint, type the Base URL for the Remedy DEV environment then Save Changes  
-      3. For the Remedy On-Demand PROD endpoint, type the Base URL for the Remedy PROD environment then Save Changes  
-      4. For the Remedy On-Demand QA endpoint, type the Base URL for the Remedy QA environment then Save Changes  
-      5. Close Edit Endpoints  
+* On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan  
+* Select Forms  
+* Click the Mobile and Web Service drop-down menu for the Incident Alerts form  
+* Select Sender Permissions then add the REST User  
+Configure Integration Builder Constants and Endpoints  
+* On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan  
+* Select Integration Builder  
+* Click Edit Endpoints
+*    For the xMatters endpoint, in Assign Endpoint add the REST User then Save Changes  
+*    For the Remedy On-Demand DEV endpoint, type the Base URL for the Remedy DEV environment then Save Changes  
+*    For the Remedy On-Demand PROD endpoint, type the Base URL for the Remedy PROD environment then Save Changes  
+*    For the Remedy On-Demand QA endpoint, type the Base URL for the Remedy QA environment then Save Changes  
+*    Close Edit Endpoints  
       
-   d. Click Edit Constants, then edit these constants:
+* Click Edit Constants, then edit these constants:
    
 | Constant               | Description                                                                |
 |:---------------------- |:-------------------------------------------------------------------------- |
