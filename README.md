@@ -25,8 +25,10 @@ The closed loop integration annotates the incident work log with xMatters event 
   <img src="media/xMRESTUser.png">
 </kbd>  
 
-Import the BMC Remedy ITSM - Incident Communication Plan (BMCRemedyITSMIncident.zip)     http://help.xmatters.com/OnDemand/xmodwelcome/communicationplanbuilder/exportcommplan.htm)
-Assign permissions to the Communication Plan and Form  
+### Import the Communication Plan
+* Import the BMC Remedy ITSM - Incident Communication Plan (BMCRemedyITSMIncident.zip)     http://help.xmatters.com/OnDemand/xmodwelcome/communicationplanbuilder/exportcommplan.htm)
+
+### Assign permissions to the Communication Plan and Form  
 * On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan  
 * Select Access Permissions then add the REST User  
 * On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan  
