@@ -19,7 +19,7 @@ The closed loop integration annotates the incident work log with xMatters event 
 # Installation 
 
 ## xMatters set up
-Create a REST user account
+### Create a REST user account
 
 <kbd>
   <img src="media/xMRESTUser.png">
