@@ -7,7 +7,7 @@ Notify on-call response teams when critical incidents are reported in Remedy. Wi
 * xMatters account - If you don't have one, [get one](https://www.xmatters.com)!
 
 # Files
-* [BMCRemedyITSMIncident.zip](BMCRemedyITSMIncident.zip) - This is an example comm plan to help get started.
+*[BMCRemedyITSMIncident.zip](BMCRemedyITSMIncident.zip) - download this Communication Plan to get started.
 
 # How it works
 Remedy On-Demand triggers one of the xMatters filters as part of the integration. The filter POSTs the Remedy Incident ID to xMatters, and in turn xMatters uses a Remedy web service to obtain the incident properties and subsequently creates the xMatters Event targeted to the assigned resolver Group.
@@ -23,21 +23,15 @@ The closed loop integration annotates the incident work log with xMatters event 
 
 <kbd>
   <img src="media/xMRESTUser.png">
-</kbd>
+</kbd>  
 
-2. Import the BMC Remedy ITSM - Incident Communication Plan (BMCRemedyITSMIncident.zip)
-http://help.xmatters.com/OnDemand/xmodwelcome/communicationplanbuilder/exportcommplan.htm)
+1. Import the BMC Remedy ITSM - Incident Communication Plan (BMCRemedyITSMIncident.zip)     http://help.xmatters.com/OnDemand/xmodwelcome/communicationplanbuilder/exportcommplan.htm)  
 
-3. Assign permissions to the Communication Plan and Form
-
-   a. On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan
-   
-   b. Select Access Permissions then add the REST User
-   
-   c. On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan
-   
-   d. Select Forms
-   
+2. Assign permissions to the Communication Plan and Form  
+   a. On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan  
+   b. Select Access Permissions then add the REST User  
+   c. On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan  
+   d. Select Forms  
    e. Click the Mobile and Web Service drop-down menu for the Incident Alerts form
    
    f. Select Sender Permissions then add the REST User
