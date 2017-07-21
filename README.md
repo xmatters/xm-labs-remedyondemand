@@ -29,16 +29,14 @@ The closed loop integration annotates the incident work log with xMatters event 
 * Import the BMC Remedy ITSM - Incident Communication Plan (BMCRemedyITSMIncident.zip)     http://help.xmatters.com/OnDemand/xmodwelcome/communicationplanbuilder/exportcommplan.htm
 
 ### Assign permissions to the Communication Plan and Form  
-* On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan
-* Select Access Permissions then add the REST User
-* On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan
-* Select Forms
+* On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan then select Access Permissions
+* Add the REST User
+* On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan then select Forms
 * Click the Mobile and Web Service drop-down menu for the Incident Alerts form
 * Select Sender Permissions then add the REST User
 
 ### Configure Integration Builder Constants and Endpoints  
-* On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan
-* Select Integration Builder
+* On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan then select Integration Builder
 * Click Edit Endpoints
 * For the xMatters endpoint, in Assign Endpoint add the REST User then Save Changes
 * For the Remedy On-Demand DEV endpoint, type the Base URL for the Remedy DEV environment then Save Changes
@@ -58,11 +56,10 @@ The closed loop integration annotates the incident work log with xMatters event 
 | XMOD_ROD_ENDPOINT_NAME | Remedy On-Demand QA or Remedy On-Demand DEV or Remedy On-Demand PROD       |
 
 ### Get the XMOD_INC_FORM_WS_URL  
-* On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan
-* Select Integration Builder
-* Click the 1 Configured link for Inbound Integrations
-* Click the Incident Alerts - Inbound link
-* Scroll to the How to trigger the integration section then click the Copy Url link
+* On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan then select Integration Builder
+* Click the *1 Configured* link for Inbound Integrations
+* Click the *Incident Alerts - Inbound* link
+* Scroll to the **How to trigger the integration** section then click the *Copy Url* link
 
 ## Remedy On-Demand set up
 Any specific steps for setting up the target application? The more precise you can be, the better!
