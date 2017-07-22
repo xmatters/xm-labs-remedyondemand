@@ -35,6 +35,22 @@ The closed loop integration annotates the incident work log with xMatters event 
 * Click the Mobile and Web Service drop-down menu for the Incident Alerts form
 * Select Sender Permissions then add the REST User
 
+### Configure List Property Values  
+* On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan then select Properties
+* Verify/Edit the following list properties:  
+   Company  
+   Contact_Sensitivity  
+   Escalated  
+   Impact  
+   Priority  
+   Reported_Source  
+   SLM_Status  
+   Service_Type  
+   Status  
+   Status_Reason  
+   Urgency  
+   VIP
+
 ### Configure Integration Builder Constants and Endpoints  
 * On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan then select Integration Builder
 * Click Edit Endpoints
