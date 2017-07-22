@@ -178,7 +178,7 @@ In the following example, the notification is received on an Apple iPhone, but t
   <img src="media/RODiPhone03.png">
 </kbd>
 
-* Tap the desired response  
+* Tap the desired response, then tap **Respond now** or **Respond with comments**  
 
 <kbd>
   <img src="media/RODiPhone04.png">
