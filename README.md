@@ -164,25 +164,25 @@ In the following example, the notification is received on an Apple iPhone, but t
 
 <kbd>
   <img src="media/RODiPhone01.png" width=236 height=420>
-</kbd>
+</kbd>  
 
 * Opening the notification displays the details  
 
 <kbd>
   <img src="media/RODiPhone02.png" width=236 height=420>
-</kbd>
+</kbd>  
 
 * After viewing the details, either click the respond (blue return arrow) icon at the top or scroll to the bottom of the notification  
 
 <kbd>
   <img src="media/RODiPhone03.png" width=236 height=420>
-</kbd>
+</kbd>  
 
 * Tap the desired response, then tap **Respond now** or **Respond with comments**  
 
 <kbd>
   <img src="media/RODiPhone04.png" width=236 height=420>
-</kbd>
+</kbd>  
 
 
 # Troubleshooting
