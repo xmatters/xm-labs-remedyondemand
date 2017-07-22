@@ -113,7 +113,7 @@ First, create a new ITSM user with the Incident Master role in BMC Remedy; the u
   <img src="media/RODITSMUser.png">
 </kbd>
 
-**Note: If you specify a Login ID of "xmatters" for this ITSM user, you can skip the following steps.**
+**Note: If you specify a Login ID of "xmatters" for this ITSM user, you can skip the following two update steps.**
 
 #### Update the filter qualification
 The XM:Incident_Re-Assigned_899 filter contains the following qualification criteria: `($USER$ != "xmatters")`  
