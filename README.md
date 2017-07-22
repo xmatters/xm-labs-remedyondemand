@@ -163,7 +163,7 @@ In the following example, the notification is received on an Apple iPhone, but t
 * Notifications appear in the application Inbox  
 
 <kbd>
-  <img src="media/RODiPhone01.png">
+  <img src="media/RODiPhone01.png" width=282 height=504>
 </kbd>
 
 * Opening the notification displays the details  
