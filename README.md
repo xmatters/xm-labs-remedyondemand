@@ -132,9 +132,9 @@ The out-of-box permissions allow the Submitter and Assignee (and BMC Remedy admi
 </kbd>
 
 ### Disabling automatic assignment
-To allow xMatters to control assignments, you must turn off the automatic assignment feature in BMC Remedy.  
+To allow xMatters to control assignments, you must turn off the automatic assignment feature in BMC Remedy.
 
-**Note: To perform this step, you will need to login as a user with Administrator permission.**  
+**Note: To perform this step, you will need to login as a user with Administrator permission.**
 
 * Log in to the BMC Remedy Mid Tier web server.
 * Click **Applications**, and then click the **Application Console** left-menu item.
@@ -148,7 +148,42 @@ To allow xMatters to control assignments, you must turn off the automatic assign
 
 
 # Testing
-Be specific. What should happen to make sure this code works? What would a user expect to see? 
+
+## Triggering a notification
+To trigger a notification, create a new incident with a priority of High or Critical in BMC Remedy, and assign it to
+a user or group that exists in both BMC Remedy and xMatters:  
+
+<kbd>
+  <img src="media/RODTriggerNotification.png">
+</kbd>
+
+## Responding to a notification
+In the following example, the notification is received on an Apple iPhone, but the process is similar for all devices.  
+
+* Notifications appear in the application Inbox  
+
+<kbd>
+  <img src="media/RODiPhone01.png">
+</kbd>
+
+* Opening the notification displays the details  
+
+<kbd>
+  <img src="media/RODiPhone02.png">
+</kbd>
+
+* After viewing the details, either click the respond (blue return arrow) icon at the top or scroll to the bottom of the notification  
+
+<kbd>
+  <img src="media/RODiPhone03.png">
+</kbd>
+
+* Tap the desired response  
+
+<kbd>
+  <img src="media/RODiPhone04.png">
+</kbd>
+
 
 # Troubleshooting
 Optional section for how to troubleshoot. Especially anything in the source application that an xMatters developer might not know about, or specific areas in xMatters to look for details - like the Activity Stream? 
