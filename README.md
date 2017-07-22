@@ -37,7 +37,7 @@ The closed loop integration annotates the incident work log with xMatters event 
 
 ### Configure List Property Values  
 * On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan then select Properties
-* Verify/Edit the following list properties:  
+* Verify/Edit the following list property values:  
    Company  
    Contact_Sensitivity  
    Escalated  
