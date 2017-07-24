@@ -186,4 +186,7 @@ In the following example, the notification is received on an Apple iPhone, but t
 
 
 # Troubleshooting
-Optional section for how to troubleshoot. Especially anything in the source application that an xMatters developer might not know about, or specific areas in xMatters to look for details - like the Activity Stream? 
+If an xMatters notification was not received you can work backwards to determine where the issue may be:  
+* Review the xMatters Reports tab and the specific [Event Log](http://help.xmatters.com/OnDemand/installadmin/reporting/eventlogreport.htm)  
+* If no Event was created, review the [xMatters Inbound Integration Activity Stream](http://help.xmatters.com/OnDemand/xmodwelcome/integrationbuilder/activity-stream.htm)  
+* If no activity was recorded, review the Remedy On-Demand logs for a POST to xMatters
