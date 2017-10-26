@@ -1,6 +1,15 @@
 # BMC Remedy On-Demand
 Notify on-call response teams when critical incidents are reported in Remedy. With the xMatters and BMC Remedy On-Demand closed-loop integration, the on-call members of resolver teams are automatically notified via multiple communication channels. When the recipient responds, notes are added to the incident work log and specific incident actions may take place depending on the response.
 
+---------
+
+<kbd>
+  <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
+</kbd>
+
+---------
+
+
 # Pre-Requisites
 * Version 9.1 of Remedy On-Demand
 * Account in Remedy On-Demand
