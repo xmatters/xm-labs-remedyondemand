@@ -38,7 +38,7 @@ The closed loop integration annotates the incident work log with xMatters event 
 </kbd>  
 
 ### Import the Workflow
-* Import the BMC Remedy ITSM - Incident Workflow (BMCRemedyITSMIncident.zip)     http://help.xmatters.com/OnDemand/xmodwelcome/communicationplanbuilder/exportcommplan.htm
+* Import the BMC Remedy ITSM - Incident Workflow [BMCRemedyITSMIncident.zip](BMCRemedyITSMIncident.zip). See the [help doc for details](https://help.xmatters.com/ondemand/xmodwelcome/workflows/manage-workflows.htm#ImportExport). 
 
 ### Assign permissions to the Workflow and Form  
 * On the Workflows page, click the Edit drop-down menu for the BMC Remedy ITSM - IT Workflow then select Access Permissions
