@@ -4,7 +4,9 @@ Notify on-call response teams when critical incidents are reported in Remedy. Wi
 ---------
 
 <kbd>
+  <a href="https://support.xmatters.com/hc/en-us/community/topics">
   <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
+  </a>
 </kbd>
 
 ---------
@@ -16,7 +18,7 @@ Notify on-call response teams when critical incidents are reported in Remedy. Wi
 * xMatters account - If you don't have one, [get one](https://www.xmatters.com)!
 
 # Files
-[BMCRemedyITSMIncident.zip](BMCRemedyITSMIncident.zip) - download this Communication Plan to get started  
+[BMCRemedyITSMIncident.zip](BMCRemedyITSMIncident.zip) - download this Workflow to get started  
 [BMCRemedyOn-Demand_defn.zip](BMCRemedyOn-Demand_defn.zip) - download this zip file containing the BMC Remedy On-Demand workflow definition files
 
 # How it works
@@ -35,18 +37,18 @@ The closed loop integration annotates the incident work log with xMatters event 
   <img src="media/xMRESTUser.png">
 </kbd>  
 
-### Import the Communication Plan
-* Import the BMC Remedy ITSM - Incident Communication Plan (BMCRemedyITSMIncident.zip)     http://help.xmatters.com/OnDemand/xmodwelcome/communicationplanbuilder/exportcommplan.htm
+### Import the Workflow
+* Import the BMC Remedy ITSM - Incident Workflow (BMCRemedyITSMIncident.zip)     http://help.xmatters.com/OnDemand/xmodwelcome/communicationplanbuilder/exportcommplan.htm
 
-### Assign permissions to the Communication Plan and Form  
-* On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan then select Access Permissions
+### Assign permissions to the Workflow and Form  
+* On the Workflows page, click the Edit drop-down menu for the BMC Remedy ITSM - IT Workflow then select Access Permissions
 * Add the REST User
-* On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan then select Forms
+* On the Workflows page, click the Edit drop-down menu for the BMC Remedy ITSM - IT Workflow then select Forms
 * Click the Mobile and Web Service drop-down menu for the Incident Alerts form
 * Select Sender Permissions then add the REST User
 
 ### Configure List Property Values  
-* On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan then select Properties
+* On the Workflows page, click the Edit drop-down menu for the BMC Remedy ITSM - IT Workflow then select Properties
 * Verify/Edit the following list property values:  
    Company  
    Contact_Sensitivity  
@@ -62,7 +64,7 @@ The closed loop integration annotates the incident work log with xMatters event 
    VIP
 
 ### Configure Integration Builder Constants and Endpoints  
-* On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan then select Integration Builder
+* On the Workflows page, click the Edit drop-down menu for the BMC Remedy ITSM - IT Workflow then select Integration Builder
 * Click Edit Endpoints
 * For the xMatters endpoint, in Assign Endpoint add the REST User then Save Changes
 * For the Remedy On-Demand DEV endpoint, type the Base URL for the Remedy DEV environment then Save Changes
@@ -82,7 +84,7 @@ The closed loop integration annotates the incident work log with xMatters event 
 | XMOD_ROD_ENDPOINT_NAME | Remedy On-Demand QA or Remedy On-Demand DEV or Remedy On-Demand PROD       |
 
 ### Get the XMOD_INC_FORM_WS_URL  
-* On the Communication Plans page, click the Edit drop-down menu for the BMC Remedy ITSM - IT communication plan then select Integration Builder
+* On the Workflows page, click the Edit drop-down menu for the BMC Remedy ITSM - IT Workflow then select Integration Builder
 * Click the *1 Configured* link for Inbound Integrations
 * Click the *Incident Alerts - Inbound* link
 * Scroll to the **How to trigger the integration** section then click the *Copy Url* link
